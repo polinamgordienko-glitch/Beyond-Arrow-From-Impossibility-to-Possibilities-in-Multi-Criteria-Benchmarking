@@ -12,11 +12,12 @@ The code reads HELM run folders, builds rankings for each MMLU subject, and then
 The code was tested with
 
 - R version 4.4.2
+- R version 4.5.2
 
 on
 
 - macOS Sequoia 15.7.3
-- 
+- Windows 11
 
 ### Data: HELM MMLU raw results (v1.0.0)
 
@@ -45,7 +46,7 @@ After downloading via Option A or B the code expects the following structure:
 
 ### Data: PMLB & OpenML results
 
-For our experiments on PMLB and OpenML we use the final results from Jansen et al. (2024). These can be downloaded under the following link: https://github.com/hannahblo/Statistical-Multicriteria-Benchmarking-via-the-GSD-Front.
+For our experiments on PMLB and OpenML we use the final results from Jansen et al. (2024). These can be downloaded under the following link: https://github.com/hannahblo/Statistical-Multicriteria-Benchmarking-via-the-GSD-Front. Download hannahblo/Statistical-Multicriteria-Benchmarking-via-the-GSD-Front and ensure the following files are available: pmlb_results/final_results.RDS (PMLB data) and openml_permutation_results/dat_openml_filter.rds (OpenML data). 
 
 
 ### Code
