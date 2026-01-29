@@ -10,9 +10,10 @@ This repository contains the code to reproduce all experiments in our paper titl
 ## HELM MMLU  
 The script "HELM_MMLU_tests.R" reads HELM run folders, builds rankings for each MMLU subject, and then tests for:
 
-- **Single-peakedness**
-- **Group separability**
-- **Distance-restrictedness**
+- **Single-peakedness**,
+- **Group separability**,
+- **Distance-restrictedness**,
+- and additionally provides the ranking representing the whole benchmark suite by **aggregating across datasets**.
 
 The code was tested with
 
@@ -36,7 +37,7 @@ https://docs.cloud.google.com/sdk/docs/install-sdk.
 2.	Download HELM MMLU raw results by following the official HELM instructions:
 https://crfm-helm.readthedocs.io/en/latest/downloading_raw_results/.
 
-After downloading, the code expects the HELM MMLU results to be placed in a folder structure that looks like this (schematically):
+After downloading via Option A or B, the code expects the HELM MMLU results to be placed in a folder structure that looks like this (schematically):
 
 ```text
 helm_mmlu/
@@ -57,7 +58,7 @@ For our experiments on PMLB and OpenML we use the final results from Jansen et a
 
 ## Coherence and Stability Experiments
 
-The script "Helm_MMLU_motiv_tests.R" runs the experiments from Section 3 of our paper, based on HELM MMLU. It contains code for the search for Condorcet cycles (intransitive rankings) and includes our investigation for situations benchmarsk become unstable to irrelevant changes in the model set.
+The script "Helm_MMLU_motiv_tests.R" runs the experiments from Section 3 of our paper, based on HELM MMLU (v1.0.0). It contains code for the search for Condorcet cycles and includes our investigation for situations benchmarks become unstable to irrelevant changes in the model set.
 
 ## References:
 
