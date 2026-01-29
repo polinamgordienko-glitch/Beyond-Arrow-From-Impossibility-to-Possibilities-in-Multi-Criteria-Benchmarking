@@ -17,7 +17,7 @@ The script "HELM_MMLU_tests.R" reads HELM run folders, builds rankings for each 
 
 The code was tested with
 
-- R 4.4.1
+- R version 4.4.1
 - R version 4.4.2
 - R version 4.5.2
 
