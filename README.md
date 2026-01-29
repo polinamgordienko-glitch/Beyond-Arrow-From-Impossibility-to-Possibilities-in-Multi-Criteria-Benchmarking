@@ -27,11 +27,11 @@ Option A: Download the HELM MMLU raw results under this link: https://zenodo.org
 
 Option B: Download the HELM MMLU raw results from the public crfm-helm-public bucket in the Google Cloud Storage (GCS) by completing the following two steps:
 
-	1.	Install the Google Cloud CLI (gcloud) by following Google’s official instructions: 
-https://docs.cloud.google.com/sdk/docs/install-sdk
+1.	Install the Google Cloud CLI (gcloud) by following Google’s official instructions: 
+https://docs.cloud.google.com/sdk/docs/install-sdk.
 
-	2.	Download HELM MMLU raw results by following the official HELM instructions:
-https://crfm-helm.readthedocs.io/en/latest/downloading_raw_results/
+2.	Download HELM MMLU raw results by following the official HELM instructions:
+https://crfm-helm.readthedocs.io/en/latest/downloading_raw_results/.
 
 After downloading via Option A or B the code expects the following structure:
 
