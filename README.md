@@ -1,8 +1,8 @@
-# Beyond Arrow: From Impossibility to Possibilities in Multi-Criteria Benchmarking
+# Beyond Arrow: From Impossibility to Possibility in Multi-Criteria Benchmarking
 
 ## Introduction
 
-This repository contains the code to reproduce all experiments in our paper titled "Beyond Arrow: From Impossibility to Possibilities in Multi-Criteria Benchmarking". The focus is on empirically testing restricted preference domain assumptions in multi-criteria benchmarking settings, using two main data sources:
+This repository contains the code to reproduce all experiments in our paper titled "Beyond Arrow: From Impossibility to Possibility in Multi-Criteria Benchmarking". The focus is on empirically testing restricted preference domain assumptions in multi-criteria benchmarking settings, using two main data sources:
  - HELM MMLU (rankings constructed from HELM MMLU runs)
  - PMLB & OpenML (final result tables from Jansen et al 2024)
 
