@@ -57,7 +57,7 @@ The script "PMLB_OpenML_tests.R" runs the restricted preference domain tests on 
 
 For our experiments on PMLB and OpenML we use the final results from Jansen et al. (2024). These can be downloaded under the following link: https://github.com/hannahblo/Statistical-Multicriteria-Benchmarking-via-the-GSD-Front. After downloading that repository, ensure the following files are available: pmlb_results/final_results.RDS (PMLB data) and openml_permutation_results/dat_openml_filter.rds (OpenML data). 
 
-## Coherence and Stability Experiments
+## Transitivity and Stability Experiments
 
 The script "Helm_MMLU_motiv_tests.R" runs the experiments from Section 3 of our paper, based on HELM MMLU (v1.0.0). It contains code for the search for Condorcet cycles and includes our investigation for situations benchmarks become unstable to irrelevant changes in the model set.
 
