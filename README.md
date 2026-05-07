@@ -5,10 +5,13 @@
 This repository contains the code to reproduce all experiments in our paper titled "Beyond Arrow: From Impossibility to Possibility in Multi-Criteria Benchmarking". The focus is on empirically testing restricted preference domain assumptions in multi-criteria benchmarking settings, using two main data sources:
  - HELM MMLU (rankings constructed from HELM MMLU runs)
  - PMLB & OpenML (final result tables from Jansen et al 2024)
+ - 
+For reproducibility, the repository includes the derived HELM MMLU outputs used for the reported numbers under `results/helm_mmlu/`. The CSV files contain the domain restriction results, mixed-effects and quasi-binomial regression summaries and aggregated ranking relations. The file `helm_mmlu_results.rds` is an R serialized object containing these tables in one bundle, along with the R session information.
+
 
 
 ## HELM MMLU  
-The script "HELM_MMLU_tests.R" reads HELM run folders, builds rankings for each MMLU subject, and then tests for:
+The script "HELM_MMLU.R" reads HELM run folders, builds rankings for each MMLU subject, and then tests for:
 
 - **Single-peakedness**,
 - **Group separability**,
